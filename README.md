@@ -77,14 +77,14 @@ The SQL queries utilised to data cleansing and quality checks can be found [here
 
 ## Executive Summary
 
-**Sales Trends**
+### Sales Trends
 
 **Total Sales Performance:** Sales reached a record high in March 2014, surpassing €12,000 in revenue, marking the highest sales month in the analyzed period. This peak can be attributed to seasonal promotions and a strategic marketing campaign launched during that time.
 
 **Monthly Sales Growth:** The monthly sales data shows consistent growth, with a 15% average increase year-over-year. However, seasonal fluctuations are noticeable, particularly in Q3, where sales dip by an average of 10% due to lower customer demand during summer months. Despite this, the overall trend remains upward, suggesting effective sales strategies and customer retention efforts.
 
 
-**Product Performance**
+### Product Performance
 
 **Top-Performing Products:** Products in the Electronics and Home Appliances categories generated over €50,000 in total sales, accounting for 60% of the overall revenue. These categories demonstrated higher-than-average growth, with certain items such as smartphones and smart home devices performing exceptionally well.
 
@@ -93,7 +93,7 @@ The SQL queries utilised to data cleansing and quality checks can be found [here
 **Average Selling Price:** The average selling price across all products is €285.60, a slight increase from the previous year (€265.00). This rise is attributed to the introduction of premium products and customer willingness to invest in higher-priced goods, particularly within the tech and home appliance categories.
 
 
-**Customer Segmentation**
+### Customer Segmentation
 
 **VIP Customers:** VIP Customers, comprising 14% of the total customer base, are responsible for nearly 40% of total revenue. This group demonstrates a significantly higher average lifetime value (LTV) and repeat purchase rate, with a 30% higher frequency of purchases compared to the regular customer base. Targeting and nurturing this segment has the potential for long-term profitability.
 
@@ -103,7 +103,7 @@ The SQL queries utilised to data cleansing and quality checks can be found [here
 
 ## Insight Deep dive
 
-**Seasonality in Sales**
+### Seasonality in Sales
 
 **Metric:** Monthly sales increased from €6,380 in January to €11,920 in March, a ~87% growth within Q1.
 
@@ -116,7 +116,7 @@ The SQL queries utilised to data cleansing and quality checks can be found [here
 **Implication:** Optimizing inventory, marketing, and promotions in Q1 can maximize revenue impact.
 
 
-**High-Performing vs Low-Performing Products**
+### High-Performing vs Low-Performing Products
 
 **Metric:** Products categorized as “High Performers” (sales > €50,000) represent less than 15% of total SKUs but contribute over 42% of total revenue.
 
@@ -127,7 +127,7 @@ The SQL queries utilised to data cleansing and quality checks can be found [here
 **Implication:** Focused marketing and restocking strategies around high-performing products can enhance ROI, while underperforming SKUs should be reviewed for possible phase-out or repositioning.
 
 
-**Customer Segmentation and Retention**
+### Customer Segmentation and Retention
 
 **Metric:**
 
@@ -144,7 +144,7 @@ Regulars (Lifespan ≥ 12 months, Spend ≤ €5,000): 61.8%, driving 48.3% of r
 **Implication:** Implementing tiered loyalty programs or personalized follow-up campaigns could help transition New → Regular → VIP segments over time.
 
 
-**Revenue Concentration by Category**
+### Revenue Concentration by Category
 
 **Metric:**
 
