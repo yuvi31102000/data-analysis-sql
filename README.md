@@ -159,4 +159,14 @@ Bottom 3 Categories: Contribute only 8.6%, despite representing 28% of SKUs.
 **Implication:** Strategic focus on expanding offerings or bundling high-conversion categories can unlock more value. Low-performing categories may benefit from promotions or rationalization.
 
 
+## Recommendation
+
+- Launch Loyalty Programs for VIPs and Regulars to sustain high retention and spending levels.
+  
+- Improve Onboarding Experience for New customers to increase repeat purchases.
+  
+- Diversify Product Offerings in underperforming categories to reduce overreliance.
+  
+- Monitor Low-Performing Products and consider phasing them out to optimize inventory.
+
 
