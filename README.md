@@ -13,7 +13,8 @@ Support strategic planning with data-driven insights
 
 ## Data Structure Overview
 
-The database structure as seen below consists of three tables: gold.dim_customer, gold.dim_product and gold.fact_sales 
+The database structure as seen below consists of three tables: gold.dim_customer, gold.dim_product and gold.fact_sales
+
 ![data_model](https://github.com/user-attachments/assets/d12f4c4d-330c-4106-aa80-1457eeb6003f)
 
 
@@ -64,4 +65,13 @@ The analysis is based on three core datasets:
 | quantity         | TINYINT       | Quantity of products sold.               |
 | price            | INT           | Price per product sold.                  |
 
+
+Prior to beginning the analysis, the data underwent cleansing and quality checks to ensure accuracy and consistency. This included:
+- Removing duplicate records.
+- Handling missing or null values.
+- Standardizing data formats (e.g., dates, text fields).
+- Validating relationships between tables (e.g., foreign key constraints).
+- Ensuring data integrity for accurate analysis.
+
+The SQL queries utilised to data cleansing and quality checks can be found [here](https://github.com/yuvi31102000/sql-data-warehouse-project)
 
