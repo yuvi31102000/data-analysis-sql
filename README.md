@@ -12,15 +12,51 @@ Segment customers based on value and longevity
 Support strategic planning with data-driven insights
 
 ## Data Structure Overview
-| Column Name    | Data Type     | Description                              |
-|----------------|--------------|------------------------------------------|
-| customer_id    | INT          | Unique identifier for each customer.     |
-| first_name     | VARCHAR(100) | First name of the customer.              |
-| last_name      | VARCHAR(100) | Last name of the customer.               |
-| email          | VARCHAR(255) | Email address of the customer.           |
-| phone_number   | VARCHAR(15)  | Phone number of the customer.            |
-| address        | TEXT         | Full address of the customer.            |
-| city           | VARCHAR(100) | City where the customer resides.         |
-| state          | VARCHAR(100) | State where the customer resides.        |
-| country        | VARCHAR(100) | Country where the customer resides.      |
-| zip_code       | VARCHAR(15)  | Postal/ZIP code of the customer's address. |
+
+The analysis is based on three core datasets:
+
+**1. gold.dim_custoemr**
+
+| Column Name      | Data Type     | Description                              |
+|------------------|---------------|------------------------------------------|
+| customer_key     | INT           | Unique identifier for the customer.      |
+| customer_id      | INT           | ID of the customer.                      |
+| customer_number  | NVARCHAR(50)  | Unique number for the customer.          |
+| first_name       | NVARCHAR(50)  | First name of the customer.              |
+| last_name        | NVARCHAR(50)  | Last name of the customer.               |
+| country          | NVARCHAR(50)  | Country of the customer.                 |
+| marital_status   | NVARCHAR(50)  | Marital status of the customer.          |
+| gender           | NVARCHAR(50)  | Gender of the customer.                  |
+| birthdate        | DATE          | Birthdate of the customer.               |
+| create_date      | DATE          | Record creation date.                    |
+
+**2. gold.dim_product**
+
+| Column Name      | Data Type     | Description                              |
+|------------------|---------------|------------------------------------------|
+| product_key      | INT           | Unique identifier for the product.       |
+| product_id       | INT           | ID of the product.                       |
+| product_number   | NVARCHAR(50)  | Unique number for the product.           |
+| product_name     | NVARCHAR(50)  | Name of the product.                     |
+| category_id      | NVARCHAR(50)  | Identifier for the product category.     |
+| category         | NVARCHAR(50)  | Name of the product category.            |
+| subcategory      | NVARCHAR(50)  | Name of the product subcategory.         |
+| maintenance      | NVARCHAR(50)  | Maintenance details for the product.     |
+| cost             | INT           | Cost of the product.                     |
+| product_line     | NVARCHAR(50)  | Line of products this belongs to.        |
+| start_date       | DATE          | Start date for the product availability. |
+
+**3. gold.fact_sales**
+
+| Column Name      | Data Type     | Description                              |
+|------------------|---------------|------------------------------------------|
+| order_number     | NVARCHAR(50)  | Unique number for the sales order.       |
+| product_key      | INT           | Foreign key referencing the product.     |
+| customer_key     | INT           | Foreign key referencing the customer.    |
+| order_date       | DATE          | Date the order was placed.               |
+| shipping_date    | DATE          | Date the order was shipped.              |
+| due_date         | DATE          | Date the payment is due.                 |
+| sales_amount     | INT           | Total amount of the sale.                |
+| quantity         | TINYINT       | Quantity of products sold.               |
+| price            | INT           | Price per product sold.                  |
+
