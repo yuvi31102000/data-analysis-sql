@@ -101,7 +101,7 @@ The SQL queries utilised to data cleansing and quality checks can be found [here
 
 **New Customers:** New Customers constitute 24% of the customer base, with an average lifespan of fewer than 12 months. While their initial contributions to revenue are modest, they represent an essential growth opportunity. The average lifetime value of new customers is €250, with the potential to increase through targeted marketing and loyalty programs aimed at improving retention and lifetime value.
 
-## Insight Deep dive
+## Insight Deep Dive
 
 ### Seasonality in Sales
 
