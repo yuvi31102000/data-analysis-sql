@@ -1,4 +1,4 @@
-## Data Analysis SQL project
+# Data Analysis SQL project
 
 ## Project Overview
 This project explores sales, customer, and product data using SQL to uncover actionable insights for business decision-making. The dataset simulates a retail business environment, and all analysis was performed using SQL queries on structured tables.
