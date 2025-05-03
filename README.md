@@ -13,9 +13,13 @@ Support strategic planning with data-driven insights
 
 ## Data Structure Overview
 
+The database structure as seen below consists of three tables: gold.dim_customer, gold.dim_product and gold.fact_sales 
+![data_model](https://github.com/user-attachments/assets/d12f4c4d-330c-4106-aa80-1457eeb6003f)
+
+
 The analysis is based on three core datasets:
 
-**1. gold.dim_custoemr**
+**1. gold.dim_customer**
 
 | Column Name      | Data Type     | Description                              |
 |------------------|---------------|------------------------------------------|
@@ -59,4 +63,5 @@ The analysis is based on three core datasets:
 | sales_amount     | INT           | Total amount of the sale.                |
 | quantity         | TINYINT       | Quantity of products sold.               |
 | price            | INT           | Price per product sold.                  |
+
 
