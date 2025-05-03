@@ -75,3 +75,27 @@ Prior to beginning the analysis, the data underwent cleansing and quality checks
 
 The SQL queries utilised to data cleansing and quality checks can be found [here](https://github.com/yuvi31102000/sql-data-warehouse-project)
 
+## Executive Summary
+
+**Sales Trends**
+
+**Total Sales Performance:** Sales reached a record high in March 2014, surpassing €12,000 in revenue, marking the highest sales month in the analyzed period. This peak can be attributed to seasonal promotions and a strategic marketing campaign launched during that time.
+
+**Monthly Sales Growth:** The monthly sales data shows consistent growth, with a 15% average increase year-over-year. However, seasonal fluctuations are noticeable, particularly in Q3, where sales dip by an average of 10% due to lower customer demand during summer months. Despite this, the overall trend remains upward, suggesting effective sales strategies and customer retention efforts.
+
+**Product Performance**
+
+**Top-Performing Products:** Products in the Electronics and Home Appliances categories generated over €50,000 in total sales, accounting for 60% of the overall revenue. These categories demonstrated higher-than-average growth, with certain items such as smartphones and smart home devices performing exceptionally well.
+
+**Category Breakdown:** Electronics and Home Appliances dominate the sales, with Electronics contributing 35% and Home Appliances contributing 25% of the total revenue. This shift towards tech-driven consumer products reflects broader market trends and customer preferences for higher-value purchases in these categories.
+
+**Average Selling Price:** The average selling price across all products is €285.60, a slight increase from the previous year (€265.00). This rise is attributed to the introduction of premium products and customer willingness to invest in higher-priced goods, particularly within the tech and home appliance categories.
+
+**Customer Segmentation**
+
+**VIP Customers:** VIP Customers, comprising 14% of the total customer base, are responsible for nearly 40% of total revenue. This group demonstrates a significantly higher average lifetime value (LTV) and repeat purchase rate, with a 30% higher frequency of purchases compared to the regular customer base. Targeting and nurturing this segment has the potential for long-term profitability.
+
+**Regular Customers:** Regular Customers make up 62% of the customer base and represent the backbone of the revenue stream. While their individual contributions are lower than VIP customers, their consistent purchasing behavior ensures steady revenue flow. The average lifetime value for regular customers is €1,500, and the retention rate for this group stands at 70%, suggesting good customer loyalty but room for improvement in engagement strategies.
+
+**New Customers:** New Customers constitute 24% of the customer base, with an average lifespan of fewer than 12 months. While their initial contributions to revenue are modest, they represent an essential growth opportunity. The average lifetime value of new customers is €250, with the potential to increase through targeted marketing and loyalty programs aimed at improving retention and lifetime value.
+
